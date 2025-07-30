@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Cards</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+
+    <div class="flex flex-col gap-10 items-center py-10">
+    
+        <input id="search" 
+               class="px-5 py-3 rounded outline-none bg-[#111] text-[#888] w-80" 
+               type="text" 
+               placeholder="Search users...">
+
+    
+        <div class="flex gap-10 flex-wrap justify-center card-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
